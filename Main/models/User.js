@@ -35,6 +35,26 @@ User.init(
         len: [8],
       },
     },
+    location: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    food: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    music: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    hobby: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    fact: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     hooks: {
