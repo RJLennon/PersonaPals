@@ -1,17 +1,38 @@
 [
   {
-    "name": "Sal",
-    "email": "sal@hotmail.com",
-    "password": "password12345"
+    "name": "Rob",
+    "email": "rob@gmail.com",
+    "password": "password12345",
+    "location": "Florida",
+    "food": "pizza",
+    "hobby": "coding!",
+    "fact": "this is a fun fact"
   },
   {
-    "name": "Lernantino",
-    "email": "lernantino@gmail.com",
-    "password": "password12345"
+    "name": "Cat",
+    "email": "cat@gmail.com",
+    "password": "password12345",
+    "location": "Florida",
+    "food": "pizza",
+    "hobby": "coding!",
+    "fact": "this is a fun fact"
   },
   {
-    "name": "Amiko",
-    "email": "amiko2k20@aol.com",
-    "password": "password12345"
+    "name": "Brandon",
+    "email": "brandon@gmail.com",
+    "password": "password12345",
+    "location": "Florida",
+    "food": "pizza",
+    "hobby": "coding!",
+    "fact": "this is a fun fact"
+  },
+  {
+    "name": "Rodrigo",
+    "email": "rodrigo@gmail.com",
+    "password": "password12345",
+    "location": "Florida",
+    "food": "pizza",
+    "hobby": "coding!",
+    "fact": "this is a fun fact"
   }
 ]
