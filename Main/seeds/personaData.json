@@ -2,21 +2,21 @@
   {
     "name": "Personality 1",
     "description": "This is the first personality.",
-    "filename": "01-personality.jpg"
+    "filename": "01-personality.png"
   },
   {
     "name": "Personality 2",
     "description": "This is the second personality.",
-    "filename": "02-personality.jpg"
+    "filename": "02-personality.png"
   },
   {
     "name": "Personality 3",
     "description": "This is the third personality.",
-    "filename": "03-personality.jpg"
+    "filename": "03-personality.png"
   },
   {
     "name": "Personality 4",
     "description": "This is the fourth personality.",
-    "filename": "04-personality.jpg"
+    "filename": "04-personality.png"
   }
 ]
