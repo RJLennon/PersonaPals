@@ -4,16 +4,9 @@
   <div class="col-md-5">
     <h2>
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
+      <img src="/images/{{persona.filename}}">
       <a href="/persona/{{persona.id}}">{{persona.name}}</a>
     </h2>
-    <p>
-      <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount"></span>
-      needed!
-    </p>
-    <p>Created by on </p>
   </div>
   <div class="col-md-7">
     <p>
