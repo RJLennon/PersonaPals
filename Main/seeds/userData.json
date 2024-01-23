@@ -5,6 +5,7 @@
     "password": "password12345",
     "location": "Florida",
     "food": "pizza",
+    "music": "music",
     "hobby": "coding!",
     "fact": "this is a fun fact"
   },
@@ -14,6 +15,7 @@
     "password": "password12345",
     "location": "Florida",
     "food": "pizza",
+    "music": "music",
     "hobby": "coding!",
     "fact": "this is a fun fact"
   },
@@ -23,6 +25,7 @@
     "password": "password12345",
     "location": "Florida",
     "food": "pizza",
+    "music": "music",
     "hobby": "coding!",
     "fact": "this is a fun fact"
   },
@@ -32,6 +35,7 @@
     "password": "password12345",
     "location": "Florida",
     "food": "pizza",
+    "music": "music",
     "hobby": "coding!",
     "fact": "this is a fun fact"
   }
