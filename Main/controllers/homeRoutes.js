@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/project/:id', async (req, res) => {
+router.get('/persona/:id', async (req, res) => {
   try {
     const personaData = await Persona.findByPk(req.params.id, {
 
