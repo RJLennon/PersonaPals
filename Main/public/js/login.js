@@ -28,11 +28,16 @@ const signupFormHandler = async (event) => {
   const name = document.querySelector('#name-signup').value.trim();
   const email = document.querySelector('#email-signup').value.trim();
   const password = document.querySelector('#password-signup').value.trim();
+  const location = document.querySelector('#location-signup').value.trim();
+  const food = document.querySelector('#food-signup').value.trim();
+  const music = document.querySelector('#music-signup').value.trim();
+  const hobby = document.querySelector('#hobby-signup').value.trim();
+  const fact = document.querySelector('#funfact-signup').value.trim();
 
-  if (name && email && password) {
+  if (name && email && password && location && food && music && hobby && fact) {
     const response = await fetch('/api/users', {
       method: 'POST',
-      body: JSON.stringify({ name, email, password }),
+      body: JSON.stringify({ name, email, password, location, food, music, hobby, fact }),
       headers: { 'Content-Type': 'application/json' },
     });
 
