@@ -7,13 +7,13 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #5300fe;
+  color: #66668b;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #66668b;
+  color: #5300fe;
   text-decoration: underline;
 }
 
