@@ -1,17 +1,16 @@
-<!-- Loop over each object in the projects array -->
-{{#each personas as |persona| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+<div class="biggest-box">
+  <div class="bigger-box">
+    {{#each personas as |persona| }}
+    <div class="box">
       <img src="/images/{{persona.filename}}">
-      <a href="/persona/{{persona.id}}">{{persona.name}}</a>
-    </h2>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{persona.description}}
-    </p>
+      <h2>
+        <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+        <a href="/persona/{{persona.id}}">{{persona.name}}</a>
+      </h2>
+      <p>
+        {{persona.description}}
+      </p>
+    </div>
+    {{/each}}
   </div>
 </div>
-{{/each}}

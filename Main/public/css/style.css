@@ -17,8 +17,54 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-/*.dollar-amount {
-  color: #5300fe;
-  font-weight: bold;
-  margin-left: -5px;
-}*/
+header {
+  height: 60px;
+}
+
+.header-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.biggest-box {
+  display: flex;
+  justify-content: center;
+}
+
+.bigger-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+
+.box {
+  background-color: #f0f0f5;
+  width: 100px;
+  /* height: 100px; */
+  margin: 10px;
+  flex: 45%;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4d516a
+}
+
+
+.bigger-simple-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.simple-box {
+  background-color: #f0f0f5;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4d516a
+}
