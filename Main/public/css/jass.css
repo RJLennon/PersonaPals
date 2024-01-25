@@ -420,7 +420,7 @@ button {
 }
 
 a {
-  color: #66668b;
+  color: #556385;
   text-decoration: none;
 }
 
@@ -884,7 +884,7 @@ a:hover {
 }
 
 .text-info {
-  color: #1bbc9b !important;
+  color: #5300fe !important;
 }
 
 .text-danger {
@@ -912,7 +912,7 @@ a:hover {
 }
 
 .text-link {
-  color: #45375b !important;
+  color: #556385 !important;
 }
 
 /* BACKGROUND UTILS */
@@ -945,7 +945,7 @@ a:hover {
 }
 
 .bg-link {
-  background-color: #45375b !important;
+  background-color: #556385 !important;
 }
 
 /* DISPLAY */
@@ -1072,12 +1072,12 @@ a:hover {
 }
 
 .btn.btn-link {
-  background-color: #1b89bc;
+  background-color: #556385;
   color: #ffffff;
 }
 
 .btn.btn-link:hover {
-  background-color: #31a9e1;
+  background-color: #5300fe;
 }
 
 .card {
