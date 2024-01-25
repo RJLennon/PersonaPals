@@ -40,7 +40,6 @@ header {
   width: 500px;
 }
 
-
 .box {
   background-color: #f0f0f5;
   width: 100px;
@@ -51,7 +50,6 @@ header {
   padding: 10px;
   color: #4d516a
 }
-
 
 .bigger-simple-box {
   display: flex;
