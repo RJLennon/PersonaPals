@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const sendButton = document.getElementById('send-button');
   const userInputField = document.getElementById('user-input');
-  const personalitySelect = document.getElementById('personality-selector');
+  const personalitySelect = document.getElementById('personality-select');
   const chatBox = document.getElementById('chat-box');
   let chatHistory = [];
 
@@ -52,10 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   }
 });
-
-
-
-
 
 
 /* const newFormHandler = async (event) => {
