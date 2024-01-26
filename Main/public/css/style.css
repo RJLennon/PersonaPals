@@ -43,7 +43,17 @@ header {
 .box {
   background-color: #f0f0f5;
   width: 100px;
-  /* height: 100px; */
+  margin: 10px;
+  flex: 45%;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4d516a
+}
+
+.login-box {
+  background-color: #f0f0f5;
+  width: 100px;
+  height: 330px;
   margin: 10px;
   flex: 45%;
   border-radius: 10px;
