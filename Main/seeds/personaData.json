@@ -1,21 +1,21 @@
 [
   {
-    "name": "Personality 1",
+    "name": "Frank Reynolds",
     "description": "This is the first personality.",
     "filename": "01-personality.png"
   },
   {
-    "name": "Personality 2",
+    "name": "Harry Potter",
     "description": "This is the second personality.",
     "filename": "02-personality.png"
   },
   {
-    "name": "Personality 3",
+    "name": "Dwight Schrute",
     "description": "This is the third personality.",
     "filename": "03-personality.png"
   },
   {
-    "name": "Personality 4",
+    "name": "Yoda",
     "description": "This is the fourth personality.",
     "filename": "04-personality.png"
   }
