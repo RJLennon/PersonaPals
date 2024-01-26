@@ -6,11 +6,12 @@ const { OpenAI } = require('openai');
 require('dotenv').config();
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
+// Sets up the rate limiter
 let requestCount = 0;
 const MAX_REQUESTS_PER_HOUR = 50; 
 const resetInterval = 60 * 60 * 1000; 
 
-
+// Reset the request count every hour
 setInterval(() => {
   requestCount = 0;
 }, resetInterval);
