@@ -1,22 +1,26 @@
 [
   {
     "name": "Frank Reynolds",
-    "description": "This is the first personality.",
+    "short_description": "This is the first personality.",
+    "long_description": "This is a longer description of the first personality.",
     "filename": "01-personality.png"
   },
   {
     "name": "Harry Potter",
-    "description": "This is the second personality.",
+    "short_description": "This is the second personality.",
+    "long_description": "This is a longer description of the second personality.",
     "filename": "02-personality.png"
   },
   {
     "name": "Dwight Schrute",
-    "description": "This is the third personality.",
+    "short_description": "This is the third personality.",
+    "long_description": "This is a longer description of the third personality.",
     "filename": "03-personality.png"
   },
   {
     "name": "Yoda",
-    "description": "This is the fourth personality.",
+    "short_description": "This is the fourth personality.",
+    "long_description": "This is a longer description of the fourth personality.",
     "filename": "04-personality.png"
   }
 ]
