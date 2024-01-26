@@ -15,7 +15,10 @@ Persona.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    short_description: {
+      type: DataTypes.STRING,
+    },
+    long_description: {
       type: DataTypes.STRING,
     },
     filename: {

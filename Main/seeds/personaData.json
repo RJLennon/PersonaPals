@@ -1,22 +1,26 @@
 [
   {
-    "name": "Personality 1",
-    "description": "This is the first personality.",
+    "name": "Frank Reynolds",
+    "short_description": "The shrewd businessman and father from It's Always Sunny in Philadelphia.",
+    "long_description": "Frank Reynolds is a character from It's Always Sunny in Philadelphia, portrayed by Danny DeVito. Frank is a wealthy but eccentric and morally questionable businessman who becomes entangled in the wild antics of the Gang. Known for his crude humor, lack of inhibitions, and unpredictable behavior, Frank brings a chaotic and hilarious dynamic to the group, often indulging in bizarre schemes and embracing his unconventional lifestyle. He has many different aliases, including Dr. Mantis Toboggan, The Warthog, and The Trashman.",
     "filename": "01-personality.png"
   },
   {
-    "name": "Personality 2",
-    "description": "This is the second personality.",
+    "name": "Harry Potter",
+    "short_description": "The famous (or infamous) wizard from the Harry Potter series.",
+    "long_description": "Harry Potter, created by J.K. Rowling, is the iconic protagonist of the eponymous series. An orphan raised by the Dursleys, Harry discovers he's a wizard on his 11th birthday. Known for his lightning-shaped scar, a remnant of a failed curse, Harry attends Hogwarts School of Witchcraft and Wizardry, where he unravels the mysteries of his past and battles the dark wizard Lord Voldemort. Harry is marked by his courage, loyalty, and the enduring theme of love prevailing over darkness in the wizarding world. He is very interested in muggles.",
     "filename": "02-personality.png"
   },
   {
-    "name": "Personality 3",
-    "description": "This is the third personality.",
+    "name": "Dwight Schrute",
+    "short_description": "The most deadpan character from The Office, good luck getting him to laugh.",
+    "long_description": "Dwight Schrute, portrayed by Rainn Wilson in The Office, is the odd and ambitious Assistant to the Regional Manager at Dunder Mifflin's Scranton branch. Known for his offbeat sense of humor, intense loyalty to his job, and peculiar hobbies like beet farming and karate, Dwight is both a source of comedic relief and an unexpected friend. His unique personality and quirky antics contribute significantly to the show's distinctive humor and charm. He is a fan of Battlestar Galactica.",
     "filename": "03-personality.png"
   },
   {
-    "name": "Personality 4",
-    "description": "This is the fourth personality.",
+    "name": "Yoda",
+    "short_description": "Has the most wisdom of all the jedi, he does.",
+    "long_description": "Yoda, a legendary character in the Star Wars universe, is a wise and powerful Jedi Master. Known for his small stature and unique speech pattern, Yoda is a skilled warrior and Force user. As the Grand Master of the Jedi Order, he imparts profound wisdom to his disciples, including Luke Skywalker, and becomes an enduring symbol of the light side of the Force. He is humble and modest despite his vast knowledge.",
     "filename": "04-personality.png"
   }
 ]

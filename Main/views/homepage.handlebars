@@ -3,12 +3,12 @@
     {{#each personas as |persona| }}
     <div class="box">
       <img src="/images/{{persona.filename}}">
-      <h2>
+      <h3>
         <!-- Call helper function with triple brackets to render the emoji span as HTML -->
         <a href="/persona/{{persona.id}}">{{persona.name}}</a>
-      </h2>
+      </h3>
       <p>
-        {{persona.description}}
+        {{persona.short_description}}
       </p>
     </div>
     {{/each}}
