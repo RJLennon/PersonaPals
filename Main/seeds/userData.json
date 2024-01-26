@@ -14,24 +14,14 @@
     "email": "cat@gmail.com",
     "password": "password12345",
     "location": "Florida",
-    "food": "pizza",
-    "music": "music",
-    "hobby": "coding!",
-    "fact": "this is a fun fact"
+    "food": "Mediterranean",
+    "music": "Death Metal",
+    "hobby": "Playing piano",
+    "fact": "I am ambidextrous"
   },
   {
     "name": "Brandon",
     "email": "brandon@gmail.com",
-    "password": "password12345",
-    "location": "Florida",
-    "food": "pizza",
-    "music": "music",
-    "hobby": "coding!",
-    "fact": "this is a fun fact"
-  },
-  {
-    "name": "Rodrigo",
-    "email": "rodrigo@gmail.com",
     "password": "password12345",
     "location": "Florida",
     "food": "pizza",
