@@ -1,3 +1,4 @@
+
 const express = require('express');
 const router = express.Router();
 const { OpenAI } = require('openai');
@@ -19,7 +20,7 @@ router.post('/', async (req, res) => {
 
     // Include the personality in the system message, if provided
     if (personality) {
-        messageList.unshift({ role: "system", content: `respondto me as if you are ${personality}.` });
+        messageList.unshift({ role: "system", content: `respond to me as if you are ${personality}.` });
     }
 
     // Add the user's input to the message list
@@ -40,7 +41,8 @@ router.post('/', async (req, res) => {
         console.error("Error calling OpenAI:", error);
         res.status(500).send(error.message);
     }
-});
+}); 
+
 
 // Export the router so it can be used in your main server file
 module.exports = router;

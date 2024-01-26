@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
           updateChatBox('You', message);
           updateChatBox(personality, data.aiResponse);
 
-          chatHistory.push({ role: personality, content: data.aiResponse });
+          chatHistory.push({ role: "system", content: data.aiResponse });
           limitChatHistory();
       })
       .catch(error => {
