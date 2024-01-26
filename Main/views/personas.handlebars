@@ -4,8 +4,13 @@
     <p><img src="/images/{{filename}}"></p>
     <p>{{long_description}}</p>
     <p>
+    {{#if logged_in}}
+      <a href="/profile">
+        <button class="btn btn-primary text-white">Start chatting now!</button>
+      </a>
+    {{/if}}
       <a href="/">
-        <button class="btn btn-primary text-white">Check out other personas!</button>
+        <button class="btn btn-primary text-white">Meet other personas!</button>
       </a>
     </p>
   </div>
