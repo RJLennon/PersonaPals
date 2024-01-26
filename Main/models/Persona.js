@@ -19,7 +19,7 @@ Persona.init(
       type: DataTypes.STRING,
     },
     long_description: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(1234),
     },
     filename: {
       type: DataTypes.STRING,
