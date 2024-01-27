@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (message.trim()) {
           sendMessageToServer(message, personality);
-          userInputField.value = ''; 
+          userInputField.value = '';
       }
   });
 
@@ -41,7 +41,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateChatBox(sender, message) {
       const messageElement = document.createElement('div');
-      messageElement.textContent = `${sender}: ${message}`;
+      messageElement.classList.add('chat-message');
+
+      if (sender === 'You') {
+          messageElement.classList.add('user-message');
+          messageElement.textContent = message;
+      } else {
+          messageElement.classList.add('system-message');
+          messageElement.textContent = `${sender}: ${message}`;
+      }
+
       chatBox.appendChild(messageElement);
       chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll to the latest message
   }
@@ -53,51 +62,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-
-/* const newFormHandler = async (event) => {
-  event.preventDefault();
-
-  const name = document.querySelector('#project-name').value.trim();
-  const needed_funding = document.querySelector('#project-funding').value.trim();
-  const description = document.querySelector('#project-desc').value.trim();
-
-  if (name && needed_funding && description) {
-    const response = await fetch(`/api/projects`, {
-      method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-
-    if (response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert('Failed to create project');
-    }
-  }
-};
-
-const delButtonHandler = async (event) => {
-  if (event.target.hasAttribute('data-id')) {
-    const id = event.target.getAttribute('data-id');
-
-    const response = await fetch(`/api/projects/${id}`, {
-      method: 'DELETE',
-    });
-
-    if (response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert('Failed to delete project');
-    }
-  }
-};
-
-document
-  .querySelector('.new-project-form')
-  .addEventListener('submit', newFormHandler);
-
-document
-  .querySelector('.project-list')
-  .addEventListener('click', delButtonHandler); */

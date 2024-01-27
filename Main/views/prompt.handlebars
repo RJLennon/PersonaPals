@@ -1,32 +1,25 @@
-<div class="row">
+<div>
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
   </div>
-  <li>
-    {{location}}
-    {{food}}
-    {{music}}
-    {{hobby}}
-    {{funfact}}
-  </li>
 </div>
 
-<div class="row mt-4">
-  <div class="col-md-6">
+<div>
+  <div>
     <h3>Ask A PersonaPal</h3>
-    <div id="chat-container">
       <select id="personality-select">
         <option value="Frank Reynolds">Frank Reynolds</option>
         <option value="Harry Potter">Harry Potter</option>
         <option value="Dwight Schrute">Dwight Schrute</option>
         <option value="Yoda">Yoda</option>
       </select>
+    <div id="chat-container">
+      <div id="chat-box">
+
+      </div>
       <div id="message-input-container">
         <input type="text" id="user-input" placeholder="Ask a question..." />
         <button id="send-button">Send</button>
-      </div>
-      <div id="chat-box">
-
       </div>
     </div>
 
