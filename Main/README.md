@@ -7,7 +7,7 @@ So that I can enjoy a variety of interactions that match my mood and preferences
 ## ACCEPTANCE CRITERIA 
 
 * 		Selecting Personality:
-    * As a new user, I want to be introduced to PersonaPal and presented with the option to choose from four distinct personalities: Friendly, Curious, Witty, and Serious.
+    * As a new user, I want to be introduced to PersonaPal and presented with the option to choose from four distinct personalities: Frank Reynolds, Harry Potter, Dwight Schrute, and Yoda.
 * 		Real-time Adaptation:
     * Upon selecting a personality, I expect PersonaPal to seamlessly adapt its responses in real-time, creating a conversational experience aligned with the chosen personality.
 * 		Unique Interactions:
