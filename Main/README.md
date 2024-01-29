@@ -25,3 +25,4 @@ So that I can enjoy a variety of interactions that match my mood and preferences
 By fulfilling these criteria, PersonaPal ensures that users can enjoy a personalized and versatile chatting experience with a range of distinct personalities.
 
 # Demo
+Link to watch demo [video](https://drive.google.com/file/d/1F50TmHwALSqHOCsyrmxZHzUij9TnKKfT/view?usp=sharing)
