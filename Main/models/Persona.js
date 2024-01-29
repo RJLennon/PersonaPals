@@ -3,6 +3,8 @@ const sequelize = require('../config/connection');
 
 class Persona extends Model {}
 
+//Create table and define columns for persona data
+
 Persona.init(
   {
     id: {

@@ -8,6 +8,8 @@ class User extends Model {
   }
 }
 
+//Create table and define columns for users
+
 User.init(
   {
     id: {
@@ -56,6 +58,7 @@ User.init(
       allowNull: false,
     },
   },
+  //hook for hashing a users password
   {
     hooks: {
       beforeCreate: async (newUserData) => {
